@@ -1,0 +1,15 @@
+#servicios {
+    background-color: #f2f4f5;
+}
+
+#servicios h1 {
+    color: #002736;
+}
+
+#servicios p {
+    color: #667379;
+}
+
+.tarjetaServicio img{
+    height: 50%;
+}
