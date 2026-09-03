@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f3f1;
+    color: #252f40;
+}
+
+.paginaCaps {
+    width: 100%;
+}
+
+.contenido {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titulo h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #202d42;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.titulo p {
+    margin-top: 20px;
+    color: #626262;
+    font-size: 18px;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.tarjeta {
+    background-color: white;
+    border-left: 4px solid #43a7bb;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.08);
+}
+
+.tituloTarjeta {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.tituloTarjeta h2 {
+    font-size: 20px;
+    color: #252b36;
+}
+
+.icono {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #42b8a7;
+}
+
+.datos {
+    margin-top: 20px;
+}
+
+.datos p {
+    color: #555;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.datos img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+
+.datos b {
+    color: #333;
+    margin-right: 5px;
+}
+
+.profesionales {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 18px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.profesionales img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+
+.profesional {
+    background-color: #f0eeec;
+    border-left: 3px solid #63b99c;
+    border-radius: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 12px;
+}
+
+.profesional b {
+    display: block;
+    color: #303030;
+    font-size: 14px;
+}
+
