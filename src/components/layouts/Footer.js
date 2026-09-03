@@ -9,7 +9,7 @@ return (
             <p>Ente descentralizado Dr. Saintout</p>
         </section>
 
-        <section>
+        <section >
             <h3>Contacto</h3>
             <p>2292-451370</p>
             <p>Emergencias: 103</p>

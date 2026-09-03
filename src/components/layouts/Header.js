@@ -3,13 +3,13 @@ import React from "react";
 const Header = (props) => {
 return (
     <div>
-         <img src="./logo192.png" alt="logo" />
+        <section className="Header">
+            <h2>Hospitan Eva Perón</h2>
+            <p>Ente descentralizado Dr. Saintout</p>
 
-        <h2>Hospitan Eva Perón</h2>
-        <p>Ente descentralizado Dr. Saintout</p>
+            <h1>Benito Juárez</h1>
 
-        <h1>Benito Juárez</h1>
-
+        </section>
         
 
     </div>
